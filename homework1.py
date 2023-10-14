@@ -89,7 +89,7 @@ plt.grid()
 plt.legend()
 
 if save_image:
-    plt.savefig(f'./Q1.png')
+    plt.savefig(f'./image/h1/Q1.png')
     plt.close()
 else:
     plt.show()
@@ -107,7 +107,7 @@ plt.ylabel('$\\frac{|M^\prime|}{|M|}$', rotation=0)
 plt.grid()
 
 if save_image:
-    plt.savefig(f'./Q4.png')
+    plt.savefig(f'./image/h1/Q4.png')
     plt.close()
 else:
     plt.show()
@@ -127,7 +127,7 @@ plt.vlines(0, mQ.min(), r.max(), 'black')
 plt.hlines(0, time.min(), time.max(), 'black')
 plt.grid()
 if save_image:
-    plt.savefig(f'./Q7.png')
+    plt.savefig(f'./image/h1/Q7.png')
     plt.close()
 else:
     plt.show()
@@ -145,7 +145,7 @@ plt.vlines(0, -r.min(), r.max(), 'black')
 plt.hlines(0, time.min(), time.max(), 'black')
 plt.legend(fontsize=25)
 if save_image:
-    plt.savefig(f'./Q8.png')
+    plt.savefig(f'./image/h1/Q8.png')
     plt.close()
 else:
     plt.show()
@@ -176,7 +176,7 @@ for single_d in np.arange(0, time.max(), duty):
 plt.draw()
 
 if save_image:
-    plt.savefig(f'./Q9.png')
+    plt.savefig(f'./image/h1/Q9.png')
     plt.close()
 else:
     plt.show()
