@@ -11,4 +11,4 @@ python homework1.py
 ## Introduction
 This homework is aims to simulate a signal $m(t)$ do base-band modulation.
 - The signal $m(t)$ is defined as:
-  $m(t)=\cos{(32\pi t)-\sin$
+  $m(t)=\cos{(32\pi t)}-\sin$
